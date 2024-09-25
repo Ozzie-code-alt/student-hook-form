@@ -1,4 +1,6 @@
-import { SubmitHandler, useForm } from 'react-hook-form';
+"use client"
+import { SubmitHandler, useForm } from "react-hook-form";
+
 type FormFieldsProps = {
   email: string;
   password: string;
